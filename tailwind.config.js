@@ -5,8 +5,10 @@ export default {
   ],
   theme: {
     extend: {
-      transitionTimingFunction:{
-         myEases : 'cubic-bezier(0.215, 0.610, 0.355, 1)'
+
+      rotate:{
+        "x-0":"0",
+        "x-90":"rotateX(90deg)",
       }
     },
   },

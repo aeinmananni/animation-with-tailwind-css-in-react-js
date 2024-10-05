@@ -16,3 +16,27 @@ body {
 .beforeTranslate {
     @apply before:w-full before:h-full before:bg-green-500 before:absolute  before:left-0 before:top-0 before:rounded-lg before:-z-10 before:-translate-x-full  before:duration-300 before:hover:translate-x-0  
 }
+
+
+
+
+/* Using floatingPieceBefore */
+.floatingPieceBefore{
+     @apply  before:w-full before:h-full before:absolute before:bg-purple-400 before:top-0 before:left-0 before:-z-10 before:duration-500
+}
+.floatingPieceBefore::before{
+    transform: rotateX(90deg);
+}
+.floatingPieceBefore:hover::before{
+     transform:rotateX(0);
+}
+/* Using floatingPieceAfter */
+.floatingPieceAfter{
+     @apply  after:w-full after:h-full after:absolute after:bg-purple-400 after:top-0 after:left-0 after:-z-10 after:duration-500
+}
+.floatingPieceAfter::after{
+    transform: rotateY(90deg);
+}
+.floatingPieceAfter:hover::after{
+     transform:rotateY(0);
+}
