@@ -40,3 +40,20 @@ body {
 .floatingPieceAfter:hover::after{
      transform:rotateY(0);
 }
+
+.boldButtonWithHover {
+      @apply hover:border-4 hover:border-orange-400 
+}
+
+.addBforeElementText{
+    @apply  before:bg-red-500   before:absolute before:w-full before:h-full before:top-0 before:left-0  before:text-white before:flex before:justify-center before:items-center before:duration-300 
+}
+
+.addBforeElementText::before{
+    content: "TEXT ! ";
+    transform: translateY(-100%);
+}
+
+.addBforeElementText:hover::before{
+     transform: translateY(0);
+}
