@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(39, 56, 62);
 }
 
 .beforeEl{
@@ -56,4 +57,8 @@ body {
 
 .addBforeElementText:hover::before{
      transform: translateY(0);
+}
+
+.hover-offset-button{ 
+    @apply before:bg-white  before:absolute before:top-3.5 before:blur-sm before:bg-opacity-65 before:rounded-md before:left-0 before:w-[120%] before:h-1/2 before:-translate-x-full before:hover:translate-x-full before:rotate-45 before:transition-all before:duration-300 
 }
