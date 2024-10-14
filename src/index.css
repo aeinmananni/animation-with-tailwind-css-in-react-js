@@ -11,7 +11,7 @@ body {
     background-color: rgb(39, 56, 62);
 }
 
-.beforeEl{
+/* .afterEl{
     @apply before:absolute before:w-full before:-rotate-90 before:origin-bottom-left before:left-0 before:h-full before:bg-yellow-300 before:-z-10 before:duration-300 w-32 h-16 overflow-hidden border-2 before:hover:rotate-0 border-gray-800 relative flex justify-center items-center 
 }
 .beforeTranslate {
@@ -61,4 +61,11 @@ body {
 
 .hover-offset-button{ 
     @apply before:bg-white  before:absolute before:top-3.5 before:blur-sm before:bg-opacity-65 before:rounded-md before:left-0 before:w-[120%] before:h-1/2 before:-translate-x-full before:hover:translate-x-full before:rotate-45 before:transition-all before:duration-300 
+} 
+
+.use-before-and-after{
+    @apply before:bg-yellow-500 before:absolute before:top-0 before:left-0 before:-z-10  before:w-full before:h-full before:hover:translate-y-full before:rounded-lg before:hover:-translate-x-full before:duration-500
+}
+.use-before-and-after{
+    @apply after:bg-yellow-500 after:absolute after:top-0 after:left-0 after:-z-10 after:translate-x-full after:-translate-y-full  after:w-full after:h-full after:hover:translate-y-0 after:rounded-lg after:hover:translate-x-0 after:duration-500
 }

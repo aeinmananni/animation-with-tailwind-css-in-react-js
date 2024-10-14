@@ -9,7 +9,10 @@ const App = () => {
     // <div className="addBforeElementText overflow-hidden border p-5 rounded-lg border-gray-500   duration-500 relative ">
     //   <span>hover me</span>
     // </div>
-    <div className="hover-offset-button overflow-hidden border p-5 rounded-lg border-gray-500  hover:bg-red-500  duration-300 relative ">
+    // <div className="hover-offset-button overflow-hidden border p-5 rounded-lg border-gray-500  hover:bg-red-500  duration-300 relative ">
+    //   <span>hover me</span>
+    // </div>
+    <div className="use-before-and-after overflow-hidden border p-5 rounded-lg border-gray-500    duration-300 relative ">
       <span>hover me</span>
     </div>
   );
