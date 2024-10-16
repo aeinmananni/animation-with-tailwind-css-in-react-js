@@ -12,8 +12,11 @@ const App = () => {
     // <div className="hover-offset-button overflow-hidden border p-5 rounded-lg border-gray-500  hover:bg-red-500  duration-300 relative ">
     //   <span>hover me</span>
     // </div>
-    <div className="use-before-and-after overflow-hidden border p-5 rounded-lg border-gray-500    duration-300 relative ">
-      <span>hover me</span>
+    // <div className="use-before-and-after overflow-hidden border p-5 rounded-lg border-gray-500    duration-300 relative ">
+    //   <span>hover me</span>
+    // </div>
+    <div className="scale-button overflow-hidden border p-5 rounded-lg border-gray-500    duration-300 relative group">
+      <span className="group-hover:invisible">hover me</span>
     </div>
   );
 };
