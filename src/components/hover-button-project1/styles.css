@@ -1,0 +1,73 @@
+/* .afterEl{
+    @apply before:absolute before:w-full before:-rotate-90 before:origin-bottom-left before:left-0 before:h-full before:bg-yellow-300 before:-z-10 before:duration-300 w-32 h-16 overflow-hidden border-2 before:hover:rotate-0 border-gray-800 relative flex justify-center items-center 
+}
+.beforeTranslate {
+    @apply before:w-full before:h-full before:bg-green-500 before:absolute  before:left-0 before:top-0 before:rounded-lg before:-z-10 before:-translate-x-full  before:duration-300 before:hover:translate-x-0  
+}
+
+
+
+
+/* Using floatingPieceBefore */
+.floatingPieceBefore{
+    @apply  before:w-full before:h-full before:absolute before:bg-purple-400 before:top-0 before:left-0 before:-z-10 before:duration-500
+}
+.floatingPieceBefore::before{
+   transform: rotateX(90deg);
+}
+.floatingPieceBefore:hover::before{
+    transform:rotateX(0);
+}
+/* Using floatingPieceAfter */
+.floatingPieceAfter{
+    @apply  after:w-full after:h-full after:absolute after:bg-purple-400 after:top-0 after:left-0 after:-z-10 after:duration-500
+}
+.floatingPieceAfter::after{
+   transform: rotateY(90deg);
+}
+.floatingPieceAfter:hover::after{
+    transform:rotateY(0);
+}
+
+.boldButtonWithHover {
+     @apply hover:border-4 hover:border-orange-400 
+}
+
+.addBforeElementText{
+   @apply  before:bg-red-500   before:absolute before:w-full before:h-full before:top-0 before:left-0  before:text-white before:flex before:justify-center before:items-center before:duration-300 
+}
+
+.addBforeElementText::before{
+   content: "TEXT ! ";
+   transform: translateY(-100%);
+}
+
+.addBforeElementText:hover::before{
+    transform: translateY(0);
+}
+
+.hover-offset-button{ 
+   @apply before:bg-white  before:absolute before:top-3.5 before:blur-sm before:bg-opacity-65 before:rounded-md before:left-0 before:w-[120%] before:h-1/2 before:-translate-x-full before:hover:translate-x-full before:rotate-45 before:transition-all before:duration-300 
+} 
+
+.use-before-and-after{
+   @apply before:bg-yellow-500 before:absolute before:top-0 before:left-0 before:-z-10  before:w-full before:h-full before:hover:translate-y-full before:rounded-lg before:hover:-translate-x-full before:duration-500
+}
+.use-before-and-after{
+   @apply after:bg-yellow-500 after:absolute after:top-0 after:left-0 after:-z-10 after:translate-x-full after:-translate-y-full  after:w-full after:h-full after:hover:translate-y-0 after:rounded-lg after:hover:translate-x-0 after:duration-500
+}
+
+.scale-button {
+   @apply relative before:absolute before:flex before:justify-center before:items-center before:w-full before:h-full before:-z-10 before:bg-white before:top-0 before:left-0  before:duration-500;
+ }
+ 
+ .scale-button::before {
+   content: 'hover me'; 
+   opacity: 0;
+   transform: scale(5);
+ }
+ .scale-button:hover::before {
+   content: 'hover me'; 
+   opacity: 1;
+   transform: scale(1);
+ }
