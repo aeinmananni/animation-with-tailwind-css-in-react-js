@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Hover animation of button in open navigation
 .sp-parent{
@@ -17,3 +19,35 @@
 .sp-child4{
      @apply left-14 w-1/3 bg-yellow-400 h-full absolute top-0  -translate-y-full duration-500 group-hover:translate-y-0 delay-300 -z-10
 } */
+
+@layer components {
+     .CartBtnSlider{
+          @apply  before:bg-green-500 before:text-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:flex before:justify-center before:items-center before:duration-500;
+       
+     }
+     .CartBtnSlider{
+          @apply  after:bg-red-500 after:text-white after:absolute after:top-0 after:left-0 after:w-full after:h-full after:flex after:justify-center after:items-center after:duration-500;
+       
+     }
+     .CartBtnSlider::before{
+         content: "BUTTON";
+         transform: rotateX(270deg);
+         transform-origin: top;
+         transition-delay: 1s;
+     }
+     .CartBtnSlider:hover::before{
+        transform: rotateX(0);
+
+        transition-delay: 0.2s;
+     }
+     .CartBtnSlider::after{
+         content: "BUTTON";
+         transform: rotateX(270deg);
+         transform-origin: top;
+         transition-delay: 0.4s;
+     }
+     .CartBtnSlider:hover::after{
+        transform: rotateX(0);
+        transition-delay: 0.8s;
+     }
+}
