@@ -33,7 +33,7 @@ const HoverButtonProject2 = () => {
     //     <span>contact</span>
     //   </span>
     // </div>
-    <div className="CartBtnSlider w-max h-max bg-yellow-300 px-12 py-4 relative">
+    <div className="btnHover w-32 h-16 flex justify-center hover:text-white border-2 border-black  items-center  relative  overflow-hidden duration-700">
       BUTTON
     </div>
   );

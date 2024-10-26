@@ -20,7 +20,7 @@
      @apply left-14 w-1/3 bg-yellow-400 h-full absolute top-0  -translate-y-full duration-500 group-hover:translate-y-0 delay-300 -z-10
 } */
 
-@layer components {
+/* @layer components {
      .CartBtnSlider{
           @apply  before:bg-green-500 before:text-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:flex before:justify-center before:items-center before:duration-500;
        
@@ -50,4 +50,9 @@
         transform: rotateX(0);
         transition-delay: 0.8s;
      }
+} */
+
+
+.btnHover {
+      @apply before:bg-orange-400 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-translate-y-full before:duration-700  before:rounded-b-full  before:hover:translate-y-0  before:hover:h-[200%] before:-z-10
 }
