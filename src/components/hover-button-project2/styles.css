@@ -56,3 +56,32 @@
 .btnHover {
       @apply before:bg-orange-400 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-translate-y-full before:duration-700  before:rounded-b-full  before:hover:translate-y-0  before:hover:h-[200%] before:-z-10
 }
+
+.rotationDiv {
+      @apply before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-gray-400 before:-z-10  before:duration-500  
+}
+.rotationDiv {
+      @apply after:w-full after:h-full after:absolute after:top-0 after:left-0  after:bg-gray-400 after:-z-10  after:duration-700  
+}
+.rotationDiv:hover::before{
+     
+     transform: translateX(100%) scale(0) rotateY(360deg);
+}
+.rotationDiv::after{
+     content: "BUTTON";
+     transition: all 500ms ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transform: translateX(-100%) scale(0) rotateY(0);
+}
+.rotationDiv::before{
+     content: "BUTTON";
+     transition: all 500ms ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.rotationDiv:hover::after{
+     transform: translateX(0) scale(1) rotateY(360deg);
+}

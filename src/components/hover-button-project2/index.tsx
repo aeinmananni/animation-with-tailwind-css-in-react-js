@@ -33,7 +33,10 @@ const HoverButtonProject2 = () => {
     //     <span>contact</span>
     //   </span>
     // </div>
-    <div className="btnHover w-32 h-16 flex justify-center hover:text-white border-2 border-black  items-center  relative  overflow-hidden duration-700">
+    // <div className="btnHover w-32 h-16 flex justify-center hover:text-white border-2 border-black  items-center  relative  overflow-hidden duration-700">
+    //   BUTTON
+    // </div>
+    <div className="rotationDiv relative w-36 h-16 border-yellow-300 border-2 text-yellow-300 flex justify-center items-center text-xl">
       BUTTON
     </div>
   );
