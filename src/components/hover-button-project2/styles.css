@@ -85,3 +85,14 @@
 .rotationDiv:hover::after{
      transform: translateX(0) scale(1) rotateY(360deg);
 }
+
+.sp{
+       @apply text-yellow-400   px-4 py-2 relative
+}
+
+.sp{
+      @apply before:w-0 before:h-0.5 before:absolute  before:top-0 before:bg-yellow-400 before:left-0 before:transition-all before:duration-500  before:hover:w-full
+}
+.sp{
+      @apply after:w-0 after:h-0.5 after:absolute  after:bottom-0 after:bg-yellow-400 after:right-0 after:transition-all after:duration-500  after:hover:w-full
+}
