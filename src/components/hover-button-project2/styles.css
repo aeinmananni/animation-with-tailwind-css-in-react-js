@@ -96,3 +96,16 @@
 .sp{
       @apply after:w-0 after:h-0.5 after:absolute  after:bottom-0 after:bg-yellow-400 after:right-0 after:transition-all after:duration-500  after:hover:w-full
 }
+
+
+
+.sp-hovered{
+     @apply text-yellow-400   px-4 py-1 relative hover:bg-yellow-400 hover:text-white duration-500 rounded-sm
+}
+
+.sp-hovered{
+      @apply  before:absolute before:border-t-2 before:w-3 before:h-3 before:border-l-2 before:border-t-yellow-400 before:border-l-yellow-400  before:top-0 before:left-0 before:-z-10 before:hover:-translate-x-2 before:hover:-translate-y-1.5 before:duration-500 before:opacity-0 before:hover:opacity-100 
+}
+.sp-hovered{
+      @apply  after:absolute after:border-b-2 after:w-3 after:h-3 after:border-r-2 after:border-b-yellow-400 after:border-r-yellow-400  after:bottom-0 after:right-0 after:-z-10 after:hover:translate-x-2 after:hover:translate-y-1.5 after:duration-500 after:opacity-0 after:hover:opacity-100
+}
