@@ -1,0 +1,9 @@
+
+body{
+      background-color: white;
+}
+
+.ImageHoverd{
+     @apply before:w-full before:h-full before:hover:opacity-100 before:opacity-0 before:absolute before:bg-slate-400 before:bg-opacity-30 before:z-20 before:duration-500;
+}
+

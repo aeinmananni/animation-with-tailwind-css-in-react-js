@@ -1,7 +1,7 @@
-import HoverButtonProject2 from "./components/hover-button-project2";
+import ImageTextHoverProject3 from "./components/imgage-text-hover-project3";
 
 const App = () => {
-  return <HoverButtonProject2 />;
+  return <ImageTextHoverProject3 />;
 };
 
 export default App;
