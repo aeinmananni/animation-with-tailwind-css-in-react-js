@@ -12,4 +12,7 @@ body{
 .ImageHoverd3{
      @apply before:w-full before:h-full  before:absolute before:bg-sky-900  before:z-20 before:duration-500 before:-translate-x-full before:hover:translate-x-0;
 }
+.ImageHoverd4{
+     @apply before:w-full before:h-full  before:absolute before:bg-sky-900   before:duration-500 before:translate-y-full before:hover:translate-y-1;
+}
 
