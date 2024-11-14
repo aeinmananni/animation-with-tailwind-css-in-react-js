@@ -1,18 +1,19 @@
-
-body{
-      background-color: white;
+body {
+  background-color: white;
 }
 
-.ImageHoverd1{
-     @apply before:w-full before:h-full before:hover:opacity-100 before:opacity-0 before:absolute before:bg-slate-400 before:bg-opacity-30 before:z-20 before:duration-500;
+.ImageHoverd1 {
+  @apply before:w-full before:h-full before:hover:opacity-100 before:opacity-0 before:absolute before:bg-slate-400 before:bg-opacity-30 before:z-20 before:duration-500;
 }
-.ImageHoverd2{
-     @apply before:w-full before:h-full  before:absolute before:bg-slate-400 before:bg-opacity-30 before:z-20 before:duration-500 before:-translate-x-full before:hover:translate-x-0;
+.ImageHoverd2 {
+  @apply before:w-full before:h-full  before:absolute before:bg-slate-400 before:bg-opacity-30 before:z-20 before:duration-500 before:-translate-x-full before:hover:translate-x-0;
 }
-.ImageHoverd3{
-     @apply before:w-full before:h-full  before:absolute before:bg-sky-900  before:z-20 before:duration-500 before:-translate-x-full before:hover:translate-x-0;
+.ImageHoverd3 {
+  @apply before:w-full before:h-full  before:absolute before:bg-sky-900  before:z-20 before:duration-500 before:-translate-x-full before:hover:translate-x-0;
 }
-.ImageHoverd4{
-     @apply before:w-full before:h-full  before:absolute before:bg-sky-900   before:duration-500 before:translate-y-full before:hover:translate-y-1;
+.ImageHoverd4 {
+  @apply before:w-full before:h-full  before:absolute before:bg-sky-900   before:duration-500 before:translate-y-full before:hover:translate-y-1;
 }
-
+.ImageHoverd5 {
+  @apply before:w-full before:h-full  before:z-20 before:absolute before:bg-sky-900  before:bg-opacity-40 before:duration-500 before:translate-y-full before:hover:translate-y-0;
+}
