@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgb(39, 63, 73);
 }
 
 .ImageHoverd1 {
@@ -16,4 +16,10 @@ body {
 }
 .ImageHoverd5 {
   @apply before:w-full before:h-full  before:z-20 before:absolute before:bg-sky-900  before:bg-opacity-40 before:duration-500 before:translate-y-full before:hover:translate-y-0;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.text {
+  @apply text-5xl text-white font-bold transition-all duration-700;
 }
