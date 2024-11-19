@@ -1,7 +1,7 @@
-import ImageTextHoverProject3 from "./components/imgage-text-hover-project3";
+import AnimationsKeyFrams from "./components/animations-keyframs";
 
 const App = () => {
-  return <ImageTextHoverProject3 />;
+  return <AnimationsKeyFrams />;
 };
 
 export default App;
