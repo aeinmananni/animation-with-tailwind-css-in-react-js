@@ -12,12 +12,17 @@ export default {
         "x-90":"rotateX(90deg)",
       },
       animation:{
-        move:"move 1s linear infinite alternate"
+        move1:"move1 2s linear infinite alternate",
+        move2:"move2 2s ease-in-out infinite"
       },
       keyframes:{
-         move:{
+         move1:{
              from:{transform:"translateX(0)"},
-             to:{transform:"translateX(54px)"}
+             to:{transform:"translateX(1000px)"}
+         },
+         move2:{
+             "0%":{transform:"translateX(0)"},
+             "100%":{transform:"translateX(1000px)"}
          }
       }
     },
