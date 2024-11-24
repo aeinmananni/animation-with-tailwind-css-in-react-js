@@ -13,7 +13,8 @@ export default {
       },
       animation:{
         move1:"move1 2s linear infinite alternate",
-        move2:"move2 2s ease-in-out infinite"
+        move2:"move2 2s ease-in-out infinite",
+        move3:"move3 3s ease-in-out infinite both"
       },
       keyframes:{
          move1:{
@@ -23,6 +24,13 @@ export default {
          move2:{
              "0%":{transform:"translateX(0)"},
              "100%":{transform:"translateX(1000px)"}
+         },
+         move3:{
+              "0%":{transform:"translateX(0)"},
+              "25%":{transform:"translateX(1200px)"},
+              "50%":{transform:"translate(1200px,500px)"},
+              "75%":{transform:"translate(0,500px)"},
+              "100%":{transform:"translate(0,0)"},
          }
       }
     },
