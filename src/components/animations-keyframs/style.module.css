@@ -10,12 +10,13 @@
 }
 
 .div4 {
-  @apply flex flex-col gap-2 h-full w-full  justify-center items-center flex-wrap animate-textAnimation ;
+  @apply flex flex-col gap-2 h-full w-full  justify-center items-center flex-wrap animate-textAnimation;
 }
 
-
-.hStyle{
-   @apply text-7xl text-white text-shadow-custom font-bold   ;
-
+.hStyle {
+  @apply text-7xl text-white text-shadow-custom font-bold;
 }
 
+.div5 {
+  @apply w-16 h-16 rounded-lg bg-white animate-rotation border-2  border-red-500;
+}

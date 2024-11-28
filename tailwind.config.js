@@ -18,7 +18,8 @@ export default {
         move1:"move1 2s linear infinite alternate",
         move2:"move2 2s ease-in-out infinite",
         move3:"move3 3s ease-in-out infinite both",
-        textAnimation:"textAnimation 3s linear infinite alternate"
+        textAnimation:"textAnimation 3s linear infinite alternate",
+        rotation:"rotation 2s linear infinite alternate"
       },
       keyframes:{
          move1:{
@@ -39,12 +40,24 @@ export default {
          textAnimation:{
            "0%":{transform:"rotate(-12deg)"},
            "100%":{transform:"rotate(12deg)"},
+         },
+         rotation:{
+            "0%":{transform:"rotateX(0) rotateY(0)"},
+            "50%":{transform:"rotateX(0) rotateY(180deg)"},
+            "100%":{transform:"rotateX(180deg) rotateY(180deg)"},
          }
       }
     },
   },
   plugins: [
-    require("tailwindcss-textshadow")
+    require("tailwindcss-textshadow"),
+    function ({ addUtilities }) {
+      addUtilities({
+        '.perspective': {
+          perspective: '500px',
+        },
+      });
+    },
   ],
 }
 

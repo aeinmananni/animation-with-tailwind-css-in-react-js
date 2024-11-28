@@ -6,9 +6,12 @@ const AnimationsKeyFrams = () => {
       {/* <div className={styles.div3}></div> */}
       {/* <div className={styles.div1}></div>
       <div className={styles.div2}></div> */}
-      <div className={styles.div4}>
+      {/* <div className={styles.div4}>
         <h1 className={styles.hStyle}>Cooming</h1>
         <h1 className={styles.hStyle}>Soon</h1>
+      </div> */}
+      <div className="perspective">
+        <div className={styles.div5} />
       </div>
     </>
   );
