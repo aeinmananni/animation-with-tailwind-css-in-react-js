@@ -19,7 +19,8 @@ export default {
         move2:"move2 2s ease-in-out infinite",
         move3:"move3 3s ease-in-out infinite both",
         textAnimation:"textAnimation 3s linear infinite alternate",
-        rotation:"rotation 2s linear infinite alternate"
+        rotation:"rotation 3s linear infinite alternate",
+        wordSwitch:"wordSwitch 2s linear infinite alternate"
       },
       keyframes:{
          move1:{
@@ -45,6 +46,11 @@ export default {
             "0%":{transform:"rotateX(0) rotateY(0)"},
             "50%":{transform:"rotateX(0) rotateY(180deg)"},
             "100%":{transform:"rotateX(180deg) rotateY(180deg)"},
+         },
+         wordSwitch:{
+           "0%":{content:"Transform"},
+           "50%":{content:"Css"},
+           "100%":{content:"programing"}
          }
       }
     },

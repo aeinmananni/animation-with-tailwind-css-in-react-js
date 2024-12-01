@@ -10,8 +10,12 @@ const AnimationsKeyFrams = () => {
         <h1 className={styles.hStyle}>Cooming</h1>
         <h1 className={styles.hStyle}>Soon</h1>
       </div> */}
-      <div className="perspective">
+      {/* <div className="perspective">
         <div className={styles.div5} />
+      </div> */}
+      <div className="flex items-center gap-1">
+        <h1 className={styles.text1}>I Love</h1>
+        <h1 className={styles.text2}></h1>
       </div>
     </>
   );

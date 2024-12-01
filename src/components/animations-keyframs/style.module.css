@@ -20,3 +20,25 @@
 .div5 {
   @apply w-16 h-16 rounded-lg bg-white animate-rotation border-2  border-red-500;
 }
+
+.text1 {
+  @apply text-5xl;
+}
+.text2::after {
+  content: "Programing";
+  font-size: 55px;
+  color: rgb(9, 57, 78);
+  animation: wordSwitch 4s infinite alternate;
+}
+
+@keyframes wordSwitch {
+  0% {
+    content: "Css";
+  }
+  50% {
+    content: "Programing";
+  }
+  100% {
+    content: "TypeScripte";
+  }
+}
