@@ -28,7 +28,7 @@
   content: "Programing";
   font-size: 55px;
   color: rgb(9, 57, 78);
-  animation: wordSwitch 4s infinite alternate;
+  animation: wordSwitch 4s infinite;
 }
 
 @keyframes wordSwitch {
@@ -41,4 +41,8 @@
   100% {
     content: "TypeScripte";
   }
+}
+
+.shaking_text {
+  @apply text-4xl text-orange-500 text-shadow-xl hover:animate-shaking;
 }

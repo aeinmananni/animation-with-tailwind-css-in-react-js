@@ -13,10 +13,11 @@ const AnimationsKeyFrams = () => {
       {/* <div className="perspective">
         <div className={styles.div5} />
       </div> */}
-      <div className="flex items-center gap-1">
+      {/* <div className="flex items-center gap-1">
         <h1 className={styles.text1}>I Love</h1>
         <h1 className={styles.text2}></h1>
-      </div>
+      </div> */}
+      <h1 className={styles.shaking_text}>Shaking-Text-With hovered</h1>
     </>
   );
 };

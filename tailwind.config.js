@@ -20,7 +20,7 @@ export default {
         move3:"move3 3s ease-in-out infinite both",
         textAnimation:"textAnimation 3s linear infinite alternate",
         rotation:"rotation 3s linear infinite alternate",
-        wordSwitch:"wordSwitch 2s linear infinite alternate"
+        shaking:"shaking .2s linear infinite alternate"
       },
       keyframes:{
          move1:{
@@ -39,18 +39,20 @@ export default {
               "100%":{transform:"translate(0,0)"},
          },
          textAnimation:{
-           "0%":{transform:"rotate(-12deg)"},
-           "100%":{transform:"rotate(12deg)"},
+           "0%":{transform:"rotate(0deg)"},
+           "50%":{transform:"rotate(-4deg)"},
+           "100%":{transform:"rotate(4deg)"},
          },
          rotation:{
             "0%":{transform:"rotateX(0) rotateY(0)"},
             "50%":{transform:"rotateX(0) rotateY(180deg)"},
             "100%":{transform:"rotateX(180deg) rotateY(180deg)"},
          },
-         wordSwitch:{
-           "0%":{content:"Transform"},
-           "50%":{content:"Css"},
-           "100%":{content:"programing"}
+
+         shaking:{
+                   "30%":{transform:"rotate(3deg)"},
+                   "60%":{transform:"rotate(-3deg)"},
+                   "100%":{transform:"rotate(3deg)"}
          }
       }
     },
