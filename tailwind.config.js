@@ -20,7 +20,8 @@ export default {
         move3:"move3 3s ease-in-out infinite both",
         textAnimation:"textAnimation 3s linear infinite alternate",
         rotation:"rotation 3s linear infinite alternate",
-        shaking:"shaking .2s linear infinite alternate"
+        shaking:"shaking .2s linear infinite alternate",
+        skewMode:"skewMode 1s linear infinite "
       },
       keyframes:{
          move1:{
@@ -53,6 +54,10 @@ export default {
                    "30%":{transform:"rotate(3deg)"},
                    "60%":{transform:"rotate(-3deg)"},
                    "100%":{transform:"rotate(3deg)"}
+         },
+         skewMode:{
+            "0%":{left:"-120px"},
+            "100%":{left:"100%"}
          }
       }
     },

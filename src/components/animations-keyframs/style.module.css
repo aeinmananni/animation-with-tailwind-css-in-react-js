@@ -46,3 +46,11 @@
 .shaking_text {
   @apply text-4xl text-orange-500 text-shadow-xl hover:animate-shaking;
 }
+
+.buttonRole {
+  @apply border-2 relative border-slate-200 text-slate-200 w-32 h-16 flex justify-center items-center overflow-hidden;
+}
+
+.buttonRole {
+  @apply before:top-0 before:left-0 before:h-full before:absolute before:bg-opacity-70 before:bg-yellow-300 before:w-8 before:-z-10 before:-skew-x-12 before:animate-skewMode before:hover:animate-none before:hover:w-full before:hover:skew-x-0;
+}
