@@ -21,7 +21,8 @@ export default {
         textAnimation:"textAnimation 3s linear infinite alternate",
         rotation:"rotation 3s linear infinite alternate",
         shaking:"shaking .2s linear infinite alternate",
-        skewMode:"skewMode 1s linear infinite "
+        skewMode:"skewMode 1s linear infinite ",
+        lighMode:"lighMode 1s ease-in-out  infinite alternate"
       },
       keyframes:{
          move1:{
@@ -58,7 +59,12 @@ export default {
          skewMode:{
             "0%":{left:"-120px"},
             "100%":{left:"100%"}
-         }
+         },
+         lighMode: {
+          "0%": { color: "#b4cfc5",  },
+          "100%": { color: "#bcd11d",  },
+        }
+        
       }
     },
   },

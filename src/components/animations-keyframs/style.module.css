@@ -54,3 +54,11 @@
 .buttonRole {
   @apply before:top-0 before:left-0 before:h-full before:absolute before:bg-opacity-70 before:bg-yellow-300 before:w-8 before:-z-10 before:-skew-x-12 before:animate-skewMode before:hover:animate-none before:hover:w-full before:hover:skew-x-0;
 }
+
+.ParentLight {
+  @apply flex justify-center items-center gap-2;
+}
+
+.lightChild {
+  @apply text-8xl text-[#b4cfc5] animate-lighMode;
+}
