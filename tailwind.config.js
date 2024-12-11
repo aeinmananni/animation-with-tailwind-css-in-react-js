@@ -22,7 +22,8 @@ export default {
         rotation:"rotation 3s linear infinite alternate",
         shaking:"shaking .2s linear infinite alternate",
         skewMode:"skewMode 1s linear infinite ",
-        lighMode:"lighMode 1s ease-in-out  infinite alternate"
+        lighMode:"lighMode 1s ease-in-out  infinite alternate",
+        heart:"heart .5s  infinite both"
       },
       keyframes:{
          move1:{
@@ -63,6 +64,14 @@ export default {
          lighMode: {
           "0%": { color: "#b4cfc5",  },
           "100%": { color: "#bcd11d",  },
+        },
+        heart:{
+             "0%":{transform:"scale(1)"},
+             "25%":{transform:"scale(1)"},
+             "30%":{transform:"scale(1.4)"},
+             "50%":{transform:"scale(1.2)"},
+             "70%":{transform:"scale(1.4)"},
+             "100%":{transform:"scale(1)"},
         }
         
       }

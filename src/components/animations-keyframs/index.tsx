@@ -1,13 +1,13 @@
 import styles from "./style.module.css";
-
+import { BsHeartFill } from "react-icons/bs";
 const AnimationsKeyFrams = () => {
-  const Light = [
-    { letter: "L", delay: 0.25 },
-    { letter: "I", delay: 0.5 },
-    { letter: "G", delay: 0.75 },
-    { letter: "H", delay: 1.2 },
-    { letter: "T", delay: 1.5 },
-  ];
+  // const Light = [
+  //   { letter: "L", delay: 0.25 },
+  //   { letter: "I", delay: 0.5 },
+  //   { letter: "G", delay: 0.75 },
+  //   { letter: "H", delay: 1.2 },
+  //   { letter: "T", delay: 1.5 },
+  // ];
   return (
     <>
       {/* <div className={styles.div3}></div> */}
@@ -28,7 +28,7 @@ const AnimationsKeyFrams = () => {
       {/* <div role="button" className={styles.buttonRole}>
         Hover me
       </div> */}
-      <div className={styles.ParentLight}>
+      {/* <div className={styles.ParentLight}>
         {Light.map((it, index) => (
           <span
             className={`${styles.lightChild} `}
@@ -38,7 +38,10 @@ const AnimationsKeyFrams = () => {
             {it.letter}
           </span>
         ))}
-      </div>
+      </div> */}
+      <i>
+        <BsHeartFill color="red" size={187} className="animate-heart" />
+      </i>
     </>
   );
 };
