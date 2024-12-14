@@ -1,5 +1,5 @@
-import styles from "./style.module.css";
-import { BsHeartFill } from "react-icons/bs";
+// import styles from "./style.module.css";
+// import { BsHeartFill } from "react-icons/bs";
 const AnimationsKeyFrams = () => {
   // const Light = [
   //   { letter: "L", delay: 0.25 },
@@ -39,9 +39,12 @@ const AnimationsKeyFrams = () => {
           </span>
         ))}
       </div> */}
-      <i>
+      {/* <i>
         <BsHeartFill color="red" size={187} className="animate-heart" />
-      </i>
+      </i> */}
+      <div className="text-[180px] text-transparent bg-clip-text bg-[url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png')] animate-textBackground">
+        ANIMATION CSS
+      </div>
     </>
   );
 };

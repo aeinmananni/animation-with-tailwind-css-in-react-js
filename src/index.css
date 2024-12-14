@@ -11,3 +11,20 @@ body {
   width: 100%;
   border: 1px solid red;
 }
+
+/* .background {
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png");
+  font-size: 180px;
+  color: transparent;
+  background-clip: text;
+  animation: textBackgroud 20s linear infinite;
+}
+
+@keyframes textBackgroud {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+} */

@@ -23,7 +23,8 @@ export default {
         shaking:"shaking .2s linear infinite alternate",
         skewMode:"skewMode 1s linear infinite ",
         lighMode:"lighMode 1s ease-in-out  infinite alternate",
-        heart:"heart .5s  infinite both"
+        heart:"heart .5s  infinite both",
+          textBackground: "textBackground 20s linear infinite"
       },
       keyframes:{
          move1:{
@@ -72,6 +73,10 @@ export default {
              "50%":{transform:"scale(1.2)"},
              "70%":{transform:"scale(1.4)"},
              "100%":{transform:"scale(1)"},
+        },
+        textBackground:{
+            from:{backgroundPosition: "0 0" },
+            to:{backgroundPosition: "100% 100%" }
         }
         
       }
