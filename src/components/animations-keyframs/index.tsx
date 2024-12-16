@@ -1,5 +1,6 @@
-// import styles from "./style.module.css";
+import styles from "./style.module.css";
 // import { BsHeartFill } from "react-icons/bs";
+import clsx from "clsx";
 const AnimationsKeyFrams = () => {
   // const Light = [
   //   { letter: "L", delay: 0.25 },
@@ -42,8 +43,16 @@ const AnimationsKeyFrams = () => {
       {/* <i>
         <BsHeartFill color="red" size={187} className="animate-heart" />
       </i> */}
-      <div className="text-[180px] text-transparent bg-clip-text bg-[url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png')] animate-textBackground">
+      {/* <div className="text-[180px] text-transparent bg-clip-text bg-[url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png')] animate-textBackground">
         ANIMATION CSS
+      </div> */}
+
+      <div className={styles.parent}>
+        <span style={{ animationDelay: "0.2s" }} className={styles.sp} />
+        <span style={{ animationDelay: "0.5s" }} className={styles.sp} />
+        <span style={{ animationDelay: "0.8s" }} className={styles.sp} />
+        <span style={{ animationDelay: "1s" }} className={styles.sp} />
+        <span style={{ animationDelay: "1.2s" }} className={styles.sp} />
       </div>
     </>
   );

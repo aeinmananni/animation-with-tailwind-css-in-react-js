@@ -62,3 +62,11 @@
 .lightChild {
   @apply text-8xl text-[#b4cfc5] animate-lighMode;
 }
+
+.parent {
+  @apply flex justify-center items-center gap-8;
+}
+
+.sp {
+  @apply w-8 h-8 rounded-full bg-white animate-loading;
+}

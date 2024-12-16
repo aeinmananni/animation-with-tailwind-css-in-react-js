@@ -24,7 +24,8 @@ export default {
         skewMode:"skewMode 1s linear infinite ",
         lighMode:"lighMode 1s ease-in-out  infinite alternate",
         heart:"heart .5s  infinite both",
-          textBackground: "textBackground 20s linear infinite"
+        textBackground: "textBackground 20s linear infinite",
+        loading:"loading .5s linear infinite alternate"
       },
       keyframes:{
          move1:{
@@ -77,6 +78,10 @@ export default {
         textBackground:{
             from:{backgroundPosition: "0 0" },
             to:{backgroundPosition: "100% 100%" }
+        },
+        loading:{
+            from:{transform:"translateY(0)"},
+            to:{transform:"translateY(-150px)"}
         }
         
       }
