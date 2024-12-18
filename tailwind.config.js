@@ -25,7 +25,8 @@ export default {
         lighMode:"lighMode 1s ease-in-out  infinite alternate",
         heart:"heart .5s  infinite both",
         textBackground: "textBackground 20s linear infinite",
-        loading:"loading .5s linear infinite alternate"
+        loading:"loading .5s linear infinite alternate",
+        rotation2:"rotation2 4s linear infinite "
       },
       keyframes:{
          move1:{
@@ -82,6 +83,10 @@ export default {
         loading:{
             from:{transform:"translateY(0)"},
             to:{transform:"translateY(-150px)"}
+        },
+        rotation2:{
+           "0%":{transform:"rotate(0,0)"},
+           "100%":{transform:"rotate(180deg)"},
         }
         
       }

@@ -70,3 +70,7 @@
 .sp {
   @apply w-8 h-8 rounded-full bg-white animate-loading;
 }
+
+.iconsDiv {
+  @apply w-24 h-24 border border-sky-800 rounded-full p-3 relative flex justify-center items-center;
+}
