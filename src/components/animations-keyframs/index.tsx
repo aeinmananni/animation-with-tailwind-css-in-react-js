@@ -1,8 +1,8 @@
 // import { BsHeartFill } from "react-icons/bs";
-import styles from "./style.module.css";
-import { FaHeart } from "react-icons/fa";
-import { FaEarthAmericas } from "react-icons/fa6";
-import { GiNetworkBars } from "react-icons/gi";
+// import styles from "./style.module.css";
+// import { FaHeart } from "react-icons/fa";
+// import { FaEarthAmericas } from "react-icons/fa6";
+// import { GiNetworkBars } from "react-icons/gi";
 const AnimationsKeyFrams = () => {
   // const Light = [
   //   { letter: "L", delay: 0.25 },
@@ -56,7 +56,7 @@ const AnimationsKeyFrams = () => {
         <span style={{ animationDelay: "1s" }} className={styles.sp} />
         <span style={{ animationDelay: "1.2s" }} className={styles.sp} />
       </div> */}
-      <div className="flex justify-center gap-2 relative  items-center">
+      {/* <div className="flex justify-center gap-2 relative  items-center">
         <div className={`${styles.iconsDiv} group`}>
           <div className="rounded-full w-[93%] h-[93%] border-2 border-dashed border-white absolute top-1 left-0.5 opacity-0 group-hover:opacity-100 group-hover:animate-rotation2" />
           <div className="w-full h-full bg-transparent group-hover:bg-white rounded-full duration-300 flex justify-center items-center">
@@ -75,6 +75,45 @@ const AnimationsKeyFrams = () => {
             <GiNetworkBars size={32} className="text-sky-900" />
           </div>
         </div>
+      </div> */}
+
+      <div className="flex justify-center items-center gap-4">
+        <span
+          style={{ animationDelay: "1s" }}
+          className="text-8xl animate-moving2"
+        >
+          L
+        </span>
+        <span
+          style={{ animationDelay: "1.2s" }}
+          className="text-8xl animate-moving2"
+        >
+          O
+        </span>
+        <span
+          style={{ animationDelay: "1.4s" }}
+          className="text-8xl animate-moving2"
+        >
+          D
+        </span>
+        <span
+          style={{ animationDelay: "1.6s" }}
+          className="text-8xl animate-moving2"
+        >
+          I
+        </span>
+        <span
+          style={{ animationDelay: "1.7s" }}
+          className="text-8xl animate-moving2"
+        >
+          N
+        </span>
+        <span
+          style={{ animationDelay: "1.8s" }}
+          className="text-8xl animate-moving2"
+        >
+          G
+        </span>
       </div>
     </>
   );

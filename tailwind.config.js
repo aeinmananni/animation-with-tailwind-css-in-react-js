@@ -26,7 +26,8 @@ export default {
         heart:"heart .5s  infinite both",
         textBackground: "textBackground 20s linear infinite",
         loading:"loading .5s linear infinite alternate",
-        rotation2:"rotation2 4s linear infinite "
+        rotation2:"rotation2 4s linear infinite",
+        moving2:"moving2 1s linear infinite alternate "
       },
       keyframes:{
          move1:{
@@ -87,6 +88,10 @@ export default {
         rotation2:{
            "0%":{transform:"rotate(0,0)"},
            "100%":{transform:"rotate(180deg)"},
+        },
+        moving2:{
+          "0%":{transform:"translateX(0)" ,color:"red"},
+          "100%":{transform:"translateX(60px)",color:"blue"},
         }
         
       }
